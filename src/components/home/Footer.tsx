@@ -5,7 +5,7 @@ const Footer = () => {
     <Container>
          <div className='px-16 py-20 flex w-full justify-between items-start'>
             <div className='w-48'>
-                <h3 className='font-dmsans font-bold text-2xl'>Address</h3>
+                <h3 className='font-dmsans font-bold text-2xl text-[#1E0E62]'>Address</h3>
                 <p className='font-dmsans font-normal text-base text-[#15143966] mt-1'>Be sure to take a look at our Terms of Use and Privacy Policy</p>
             </div>
             <div className='flex items-start gap-16'>
