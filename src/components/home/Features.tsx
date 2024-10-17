@@ -1,8 +1,5 @@
-import React from 'react'
+import { faBullseye, faCrop, faDiamond } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBullseye } from '@fortawesome/free-solid-svg-icons';
-import { faCrop } from '@fortawesome/free-solid-svg-icons';
-import { faDiamond } from '@fortawesome/free-solid-svg-icons';
 
 const Features = () => {
 

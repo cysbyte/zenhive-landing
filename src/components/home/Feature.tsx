@@ -1,9 +1,8 @@
-import React from 'react'
 import Container from '../container/Container'
 import Features from './Features'
-import KeyFeatures from './KeyFeatures'
 import JoinDepin from './JoinDepin'
 import JoinList from './JoinList'
+import KeyFeatures from './KeyFeatures'
 
 const Feature = () => {
   return (

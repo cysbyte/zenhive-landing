@@ -1,9 +1,8 @@
-import React from 'react'
-import Container from '../container/Container'
 import discord from '../../assets/header/discord.svg'
-import github from  '../../assets/header/github.svg'
+import github from '../../assets/header/github.svg'
 import reddit from '../../assets/header/reddit.svg'
 import twitter from '../../assets/header/twitter.svg'
+import Container from '../container/Container'
 
 const Header = () => {
   return (

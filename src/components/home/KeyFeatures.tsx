@@ -1,4 +1,3 @@
-import React from 'react'
 import iphonex from '../../assets/hero/iphonex.png'
 
 const KeyFeatures = () => {
