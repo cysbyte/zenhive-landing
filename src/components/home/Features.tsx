@@ -34,10 +34,10 @@ const Features = () => {
         },
     ]
   return (
-    <div className='flex justify-between items-center mt-7'>
+    <div className='flex flex-col gap-10 lg:gap-1 lg:flex-row justify-between items-center mt-7'>
         {
             data.map((item)=>(
-                <div key={item.id} className='w-[30%]'>
+                <div key={item.id} className='w-[100%] lg:w-[30%]'>
                     <FontAwesomeIcon icon={getIcon(item.icon)} className='text-[#EBEAED] text-[42px] leading-[38px]'/>
                     <h5 className='font-dmsans font-[500] text-[22px] leading-[32px] text-[#1E0E62] my-4'>{item.title}</h5>
                     <p className='font-dmsans font-[400] text-[16px] leading-[26px] text-[#15143966]'>{item.desc}</p>

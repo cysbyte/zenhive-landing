@@ -7,9 +7,9 @@ import Container from '../container/Container'
 const Header = () => {
   return (
     <Container>
-      <div className='bg-black flex justify-between items-center px-20 py-4'>
+      <div className='bg-black flex justify-between items-center px-10 md:px-20 py-4'>
         <h3 className='font-chillax font-[500] text-2xl text-white'>Serendale</h3>
-        <div className='flex items-center gap-4'>
+        <div className='hidden lg:flex items-center gap-4 '>
           <h3 className='font-clashGrotesk text-lg font-thin text-white'>Smart Contracts Service</h3>
           <h3 className='font-clashGrotesk text-lg font-thin text-white'>Solutions Roadmap WhitePaper</h3>
         </div>

@@ -7,7 +7,7 @@ import logo6 from '../../assets/client-logos/logo6.svg'
 
 const ClientLogos = () => {
   return (
-    <div className='mx-auto flex items-center justify-between w-[80%] py-9 my-3 px-20 border-t border-b'>
+    <div className='mx-auto flex items-center justify-between w-[80%] py-9 my-3 px-20 border-t border-b overflow-auto'>
         <img src={logo1} alt=''/>
         <img src={logo2} alt=''/>
         <img src={logo3} alt=''/>

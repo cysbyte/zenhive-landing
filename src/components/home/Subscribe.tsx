@@ -7,7 +7,7 @@ import Container from '../container/Container'
 const Subscribe = () => {
     return (
         <Container>
-            <div className='px-16 py-10 flex bg-black w-full justify-between items-end'>
+            <div className='px-16 py-10 flex flex-col md:flex-row bg-black w-full justify-between gap-10 md:gap-1 items-center md:items-end'>
                 <div>
                     <h3 className='text-white uppercase'>SUBSCRIBE FOR UPDATES</h3>
                     <h3 className='text-white ml-3 text-lg mt-3'>Enter your email</h3>

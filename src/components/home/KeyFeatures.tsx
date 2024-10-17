@@ -34,8 +34,8 @@ const KeyFeatures = () => {
         },
     ]
     return (
-        <div className='flex justify-between items-end'>
-            <div className='flex-1 w-[66%] flex flex-col gap-10 justify-between items-start mt-7 text-left font-dmsans'>
+        <div className='flex flex-col gap-10 lg:gap-1 lg:flex-row justify-between items-end'>
+            <div className='flex-1 w-full lg:w-[66%] flex flex-col gap-10 justify-between items-start mt-7 text-left font-dmsans'>
                 {
                     data.map((item) => (
                         <div key={item.id}>
@@ -45,7 +45,7 @@ const KeyFeatures = () => {
                     ))
                 }
             </div>
-            <div className='w-[30rem] h-auto'>
+            <div className='w-[20rem] lg:w-[30rem] h-auto'>
                 <img className='w-full' src={iphonex} alt=''/>
             </div>
             

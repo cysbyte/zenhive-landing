@@ -30,9 +30,9 @@ const GetLatest = () => {
   ]
   return (
     <Container>
-      <div className='px-20 py-20'>
+      <div className='px-10 md:px-20 py-20'>
         <h2 className='font-[500] text-[36px] leading-[32px] tracking-[-0.4px] text-center'>Get the latest</h2>
-        <div className="flex items-start justify-between gap-6 mt-20">
+        <div className="flex flex-col md:flex-row gap-10 md:gap-6 items-start justify-between mt-20 ">
           {
             data.map((item) => (
               <div key={item.id} className="flex flex-1 flex-col gap-3 items-start">

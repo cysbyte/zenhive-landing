@@ -3,12 +3,12 @@ import Container from '../container/Container'
 const Footer = () => {
   return (
     <Container>
-         <div className='px-16 py-20 flex w-full justify-between items-start'>
+         <div className='px-16 py-20 flex flex-col md:flex-row gap-10 md:gap-1 w-full justify-between items-start'>
             <div className='w-48'>
                 <h3 className='font-dmsans font-bold text-2xl text-[#1E0E62]'>Address</h3>
                 <p className='font-dmsans font-normal text-base text-[#15143966] mt-1'>Be sure to take a look at our Terms of Use and Privacy Policy</p>
             </div>
-            <div className='flex items-start gap-16'>
+            <div className='flex items-start gap-16 w-full justify-between md:justify-end'>
                 <div className='flex flex-col gap-2'>
                     <h6 className='font-dmsans font-medium text-[18px] leading-[28px] text-[#1E0E62]'>Resources</h6>
                     <a className='font-dmsans font-normal text-base text-[#1E0E62]' href="">Whitepaper</a>
