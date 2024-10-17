@@ -38,7 +38,7 @@ const ClientLogos = () => {
     <motion.div className='mx-auto flex items-center justify-between w-[100%] md:w-[80%] py-9 gap-6 my-3 px-20  whitespace-normal'
       ref={containerRef}
       initial={{ x: 0 }}
-      animate={{ x: containerRef.current?.scrollWidth! }}
+      animate={isOverflowing ? controls : { x: 0 }}
       transition={{
         ease: "linear",
         duration: 20,
