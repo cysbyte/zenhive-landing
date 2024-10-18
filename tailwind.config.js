@@ -12,6 +12,7 @@ export default {
         dmsans: ['DMSans', 'sans-serif'],
         clashGrotesk: ['ClashGrotesk', 'sans-serif'],
         cabinetGrotesk: ['CabinetGrotesk', 'sans-serif'],
+        spaceGrotesk: ['SpaceGrotesk', 'sans-serif'],
       },
     },
   },
