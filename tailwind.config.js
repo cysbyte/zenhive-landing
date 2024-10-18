@@ -13,6 +13,7 @@ export default {
         clashGrotesk: ['ClashGrotesk', 'sans-serif'],
         cabinetGrotesk: ['CabinetGrotesk', 'sans-serif'],
         spaceGrotesk: ['SpaceGrotesk', 'sans-serif'],
+        
       },
     },
   },
