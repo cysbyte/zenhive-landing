@@ -45,7 +45,7 @@ const KeyFeatures = () => {
                     ))
                 }
             </div>
-            <div className='w-[20rem] lg:w-[28rem] h-auto'>
+            <div className='w-[20rem] lg:w-[28rem] h-auto mx-auto'>
                 <img className='w-full' src={iphonex} alt=''/>
             </div>
             

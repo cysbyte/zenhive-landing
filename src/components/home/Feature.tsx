@@ -7,7 +7,7 @@ import KeyFeatures from './feature/KeyFeatures'
 const Feature = () => {
   return (
     <Container>
-        <div className='px-10 lg:px-24 py-20 gap-10 lg:gap-1'>
+        <div className='px-5 lg:px-24 py-20 gap-10 lg:gap-1'>
             <h2 className='font-dmsans font-[550] text-[30px] lg:text-[42px] leading-[52px] tracking-[-0.6px] text-[#1E0E62]'>ZenHive Commercial Adoption</h2>
             <Features/>
             <h2 className='mt-20 font-dmsans font-[550] text-[30px] lg:text-[42px] leading-[52px] tracking-[-0.6px] text-black'>ZenHive’s Key Features</h2>
