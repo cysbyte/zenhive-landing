@@ -14,7 +14,7 @@ const Header = () => {
           <h3 className='font-clashGrotesk text-lg font-thin text-white'>Solutions RoadmapWhitePaper</h3>
         </div>
 
-        <div className='flex justify-center items-center gap-3'>
+        <div className='flex justify-center items-center gap-4'>
           <img className='cursor-pointer' src={github} alt='github'/>
           <img className='cursor-pointer' src={discord} alt='discord'/>
           <img className='cursor-pointer' src={reddit} alt='reddit'/>
