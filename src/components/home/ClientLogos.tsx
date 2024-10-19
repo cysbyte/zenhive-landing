@@ -1,10 +1,10 @@
-import React, { useEffect, useRef, useState } from 'react';
-import logo1 from '../../assets/client-logos/logo1.svg'
-import logo2 from '../../assets/client-logos/logo2.svg'
-import logo3 from '../../assets/client-logos/logo3.svg'
-import logo4 from '../../assets/client-logos/logo4.svg'
-import logo5 from '../../assets/client-logos/logo5.svg'
-import logo6 from '../../assets/client-logos/logo6.svg'
+import { useEffect, useRef, useState } from 'react';
+import logo1 from '../../assets/client-logos/logo1.svg';
+import logo2 from '../../assets/client-logos/logo2.svg';
+import logo3 from '../../assets/client-logos/logo3.svg';
+import logo4 from '../../assets/client-logos/logo4.svg';
+import logo5 from '../../assets/client-logos/logo5.svg';
+import logo6 from '../../assets/client-logos/logo6.svg';
 
 
 const ClientLogos = () => {
