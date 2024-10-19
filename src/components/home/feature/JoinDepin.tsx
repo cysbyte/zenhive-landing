@@ -13,12 +13,12 @@ const JoinDepin = () => {
         },
     ]
     return (
-        <div className="w-full mt-14 flex flex-col justify-start gap-7">
+        <div className="w-full mt-7 md:mt-14 flex flex-col justify-start gap-7">
             {
                 data.map((item) => (
                     <div className='mt-10' key={item.id}>
-                        <h3 className='font-dmsans font-[450] text-[#151439] text-[22px] leading-[32px] tracking-wider'>{item.title}</h3>
-                        <p className='font-dmsans font-[450] text-[#15143966] text-[22px] leading-[32px] tracking-wider'>{item.desc}
+                        <h3 className='font-dmsans font-[450] text-[#151439] text-[18px] md:text-[22px] leading-[32px] tracking-wider'>{item.title}</h3>
+                        <p className='font-dmsans font-[450] text-[#15143966] text-[18px] md:text-[22px] leading-[32px] tracking-wider'>{item.desc}
                         </p>
                     </div>
                 ))

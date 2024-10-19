@@ -45,7 +45,7 @@ const Footer = () => {
                     <h3 className='font-dmsans font-[600] text-2xl text-[#1E0E62]'>Address</h3>
                     <p className='font-dmsans font-thin text-base text-[#15143966] mt-2 leading-[26px] tracking-wider'>Be sure to take a look at our Terms of Use and Privacy Policy</p>
                 </div>
-                <div className='flex items-start gap-36 w-full justify-between md:justify-end'>
+                <div className='flex flex-col md:flex-row items-start gap-10 md:gap-36 w-full justify-between md:justify-end'>
                     <div>
                         <h6 className='font-dmsans font-medium text-[18px] leading-[28px] text-[#1E0E62]'>Resources</h6>
                         <div className='flex flex-col gap-3 mt-3'>
