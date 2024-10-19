@@ -8,7 +8,7 @@ import Subscribe from '../components/home/Subscribe'
 
 const Home = () => {
   return (
-    <main>
+    <main className='overflow-x-hidden'>
         <Header/>
         <Hero/>
         <ClientLogos/>
