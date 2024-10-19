@@ -38,7 +38,7 @@ const ClientLogos = () => {
   }, []);
 
   return (
-    <div className={`mask-gradient p-2 whitespace-nowrap overflow-auto w-full  ${hasOverflow ? 'border-b border-t p-0 m-2': ''}`}>
+    <div className={`mask-gradient p-2 whitespace-nowrap overflow-auto w-full ${hasOverflow ? 'border-b border-t p-0 m-2 hide-scrollbar': ''}`}>
         <div ref={containerRef} className={`mx-auto flex items-center justify-center border-t border-b w-[100%] md:w-[80%] py-10 gap-6 my-3 px-20 ${hasOverflow ? 'logo-list border-hidden' : ''} whitespace-normal`}
         >
           <img src={logo1} alt='' />

@@ -23,6 +23,14 @@ export default {
         '.mask-gradient': {
           'mask-image': 'linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, rgba(0,0,0,0))',
         },
+        '.hide-scrollbar': {
+          /* For most modern browsers */
+          'scrollbar-width': 'none', /* Firefox */
+          '-ms-overflow-style': 'none', /* IE and Edge */
+        },
+        '.hide-scrollbar::-webkit-scrollbar': {
+          display: 'none', /* Chrome, Safari, and Opera */
+        }
       });
     }
   ],
