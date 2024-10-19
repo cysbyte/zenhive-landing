@@ -48,4 +48,28 @@
   background-image: linear-gradient(90deg, #FF3BFF, #ECBFBF, #5C24FF, #D94FD5);
 }
 
+.logo-list {
+  display: inline-flex;
+  animation: scrollLeft 15s linear infinite;
+}
+
+/* .mask-image-div {
+  mask-image: linear-gradient(
+    to right,
+    rgba(0,0,0,0),
+    rgba(0,0,0,1) 20%,
+    rgba(0,0,0,1) 80%,
+    rgba(0,0,0,0) ,
+  )
+} */
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(140%); 
+  }
+  100% {
+    transform: translateX(-140%); 
+  }
+}
+
 

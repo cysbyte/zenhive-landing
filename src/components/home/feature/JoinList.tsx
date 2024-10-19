@@ -1,7 +1,7 @@
 
 const JoinList = () => {
   return (
-    <div className='flex flex-col mt-1 md:flex-row gap-4 md:gap-8 w-full md:w-[43%] md:min-w-[37rem] justify-start items-start md:items-end'>
+    <div className='flex flex-col mt-1 md:flex-row gap-8 md:gap-8 w-full md:w-[43%] md:min-w-[37rem] justify-start items-start md:items-end'>
         <div className='flex flex-col gap-8 mt-5 w-full'>
             <input className='text-[20px] font-dmsans border-[2px] rounded-full px-6 py-[0.9rem] placeholder:text-[20px] placeholder:font-dmsans placeholder:text-[#15143966] placeholder:font-normal appearance-none focus:outline-none'
             type='text'
