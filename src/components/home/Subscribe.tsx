@@ -28,7 +28,7 @@ const Subscribe = () => {
     ]
     return (
         <Container>
-            <div className='px-16 py-[1.4rem] flex flex-col md:flex-row bg-black w-full justify-between gap-10 md:gap-1 items-center md:items-end'>
+            <div className='px-16 py-[1.4rem] mt-4 flex flex-col md:flex-row bg-black w-full justify-between gap-10 md:gap-1 items-center md:items-end'>
                 <div className='mt-5 w-full'>
                     <h6 className='text-white text-[0.7rem] uppercase font-dmsans font-thin'>SUBSCRIBE FOR UPDATES</h6>
                     <div className='flex flex-col md:flex-row items-center justify-between w-full md:w-[36rem] gap-5 md:gap-2 border-[1px] border-gray-800 rounded-2xl py-1 px-3 mt-2 backdrop-blur-sm shadow-xl'>
@@ -46,8 +46,8 @@ const Subscribe = () => {
                     <div className='flex justify-center items-center gap-3 mb-8'>
                         {
                             icons.map((item)=>(
-                                <div key={item.id} className='p-3 rounded-full border-[1px] border-gray-700 bg-gray-950' >
-                                     <img className='cursor-pointer' src={item.icon} alt={item.name} />
+                                <div key={item.id} className='p-3 rounded-full border-[1px] border-gray-700 bg-gray-950 cursor-pointer' >
+                                     <img src={item.icon} alt={item.name} />
                                 </div>
                             ))
                         }
