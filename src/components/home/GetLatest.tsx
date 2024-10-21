@@ -36,14 +36,14 @@ const GetLatest = () => {
   ]
   return (
     <Container>
-      <div className='px-5 md:px-20 py-10 md:py-20'>
+      <div className='px-5 md:px-20 py-10 md:py-20 mx-auto'>
         <h2 className='font-[600] text-[30px] lg:text-[40px] leading-[32px] text-center tracking-wider'>Get the latest</h2>
-        <div className="flex flex-col md:flex-row gap-10 md:gap-6 items-start justify-between mt-14 ">
+        <div className="flex flex-col md:flex-row gap-10 md:gap-6 items-center md:items-start justify-between mt-14 ">
           {
             data.map((item) => (
-              <div key={item.id} className="flex-1 flex-col">
+              <div key={item.id} className="flex-1 flex-col items-center justify-center">
                 {/* {item.component} */}
-                <img className='rounded-[1px] max-w-[23rem]' src={item.image} alt=''/>
+                <img className='rounded-[1px] w-full md:max-w-[23rem]' src={item.image} alt=''/>
                 <h3 className="bg-[#e26442] inline-block uppercase px-3 py-[0.1rem] w-auto text-center text-[0.78rem] mt-4">{item.category}</h3>
                 <h2 className='text-xl text-[#3c3832] font-semibold mt-2 tracking-wider'>{item.title}</h2>
                 <p className='text-lg text-[#38322b] font-normal mt-2'>{item.desc}</p>

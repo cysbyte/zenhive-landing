@@ -95,7 +95,7 @@
   z-index: -1;
   padding: 2px;
   border-radius: 40px;
-  background-image: conic-gradient(from var(--angle), #FF3BFF, #ECBFBF, #5C24FF, #D94FD5);
+  background-image: conic-gradient(from var(--angle), #FF3BFF, #ECBFBF, #5C24FF, #D94FD5, #FF3BFF);
   animation: 3s spin linear infinite;
 }
 
@@ -109,7 +109,7 @@
     --angle: 0deg;
   }
   to {
-    angle: 360deg;
+    --angle: 360deg;
   }
 }
 
