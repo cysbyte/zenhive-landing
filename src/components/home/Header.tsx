@@ -8,10 +8,10 @@ const Header = () => {
   return (
     <Container>
       <div className='pt-12 bg-black flex justify-between items-center px-10 md:px-20 py-4'>
-        <h3 className='font-chillax font-[500] text-2xl text-white leading-[34px]'>Serendale</h3>
+        <h3 className='font-chillax font-[500] text-2xl text-white leading-[34px] cursor-pointer'>Serendale</h3>
         <div className='hidden lg:flex items-center gap-10 '>
-          <h3 className='font-clashGrotesk text-lg font-thin text-white'>Smart ContractsService</h3>
-          <h3 className='font-clashGrotesk text-lg font-thin text-white'>Solutions RoadmapWhitePaper</h3>
+          <h3 className='font-clashGrotesk text-lg font-thin text-white cursor-pointer'>Smart ContractsService</h3>
+          <h3 className='font-clashGrotesk text-lg font-thin text-white cursor-pointer'>Solutions RoadmapWhitePaper</h3>
         </div>
 
         <div className='flex justify-center items-center gap-4'>
