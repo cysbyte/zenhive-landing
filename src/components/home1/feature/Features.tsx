@@ -1,4 +1,3 @@
-import { div } from 'framer-motion/client'
 import featureIcon from '../../../assets/home1/feature.svg'
 
 const Features = () => {

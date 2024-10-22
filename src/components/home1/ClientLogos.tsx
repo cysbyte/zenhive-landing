@@ -37,32 +37,32 @@ const ClientLogos = () => {
     };
   }, []);
 
-  const logos = [
-    {
-      id: 1,
-      src: logo1
-    },
-    {
-      id: 2,
-      src: logo2
-    },
-    {
-      id: 3,
-      src: logo3
-    },
-    {
-      id: 4,
-      src: logo4
-    },
-    {
-      id: 5,
-      src: logo5
-    },
-    {
-      id: 6,
-      src: logo6
-    },
-  ]
+  // const logos = [
+  //   {
+  //     id: 1,
+  //     src: logo1
+  //   },
+  //   {
+  //     id: 2,
+  //     src: logo2
+  //   },
+  //   {
+  //     id: 3,
+  //     src: logo3
+  //   },
+  //   {
+  //     id: 4,
+  //     src: logo4
+  //   },
+  //   {
+  //     id: 5,
+  //     src: logo5
+  //   },
+  //   {
+  //     id: 6,
+  //     src: logo6
+  //   },
+  // ]
 
   // return (
   //   <div className={`mask-gradient whitespace-nowrap overflow-hidden w-full ${hasOverflow ? 'border-b border-t p-0 m-2 hide-scrollbar': ''}`}>
