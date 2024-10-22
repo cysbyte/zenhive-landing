@@ -10,7 +10,7 @@ const Feature = () => {
     <Container>
       <div className='px-5 lg:px-24 py-10 md:py-14 gap-10 lg:gap-1 text-center relative'>
         <img className='absolute left-[1rem] top-[36rem] ' src={milky1} alt=''/>
-        <img className='absolute left-3 top-[65rem] ' src={milky2} alt=''/>
+        <img className='absolute left-5 top-[64rem] ' src={milky2} alt=''/>
         <h2 className='font-montserratBold font-[550] text-[30px] lg:text-[48px] leading-[52px] tracking-[-0.6px] text-[#4AFF86]'>ZenHive Commercial Adoption</h2>
         <Features />
         <h2 className='mt-28 font-montserratBold font-[550] text-[30px] lg:text-[48px] leading-[52px] tracking-[-0.6px] text-[#4AFF86]'>ZenHive’s Key Features</h2>

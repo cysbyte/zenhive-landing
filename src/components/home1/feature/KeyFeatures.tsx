@@ -39,7 +39,7 @@ const KeyFeatures = () => {
             <div className="bg-[url('assets/home1/key-features/whatsapp2.svg')] bg-center w-[43rem] ml-60 lg:ml-0 h-auto">
                 <img className='w-[43rem] -ml-[5.8rem] mt-16' src={whatsapp1} alt='' />
             </div>
-            <div className='flex-1 ml-0 lg:-ml-[13rem] w-full grid grid-cols-1 md:grid-cols-2 grid-rows-3 gap-x-20 gap-y-9 mt-7 text-left font-dmsans tracking-wide'>
+            <div className='flex-1 ml-0 lg:-ml-[12rem] w-full grid grid-cols-1 md:grid-cols-2 grid-rows-3 gap-x-20 gap-y-9 mt-7 text-left font-dmsans tracking-wide'>
                 {
                     data.map((item) => (
                         <div key={item.id}>
