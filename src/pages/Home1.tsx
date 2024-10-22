@@ -1,6 +1,5 @@
 import ClientLogos from '../components/home1/ClientLogos'
 import Feature from '../components/home1/Feature'
-import Footer from '../components/home1/Footer'
 import GetLatest from '../components/home1/GetLatest'
 import Header from '../components/home1/Header'
 import Hero from '../components/home1/Hero'
