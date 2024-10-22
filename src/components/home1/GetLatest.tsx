@@ -34,7 +34,7 @@ const GetLatest = () => {
   ]
   return (
     <Container>
-      <div className='mt-4 px-5 md:px-20 py-10 md:py-20 mx-auto'>
+      <div className='mt-4 px-2 md:px-20 py-10 md:py-20 mx-auto'>
         <h2 className='font-montserratBold font-[600] text-[#4AFF86] text-[30px] lg:text-[48px] leading-[58px] text-center tracking-wider'>Get the latest</h2>
         <div className="flex flex-col  md:flex-row gap-10 md:gap-6 items-center md:items-start justify-between mt-14 ">
           {

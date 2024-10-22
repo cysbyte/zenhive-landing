@@ -15,7 +15,7 @@ const JoinDepin = () => {
         },
     ]
     return (
-        <div className="w-full mt-7 md:mt-0 flex flex-row justify-start gap-7">
+        <div className="w-full mt-7 md:mt-0 flex flex-col md:flex-row justify-start gap-7">
             {
                 data.map((item) => (
                     <div className='mt-10 border-[1px] border-[#262626] px-12 rounded-[14px] text-start' key={item.id}>

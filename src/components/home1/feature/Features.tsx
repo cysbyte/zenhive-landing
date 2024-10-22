@@ -1,3 +1,4 @@
+import { div } from 'framer-motion/client'
 import featureIcon from '../../../assets/home1/feature.svg'
 
 const Features = () => {
@@ -19,19 +20,23 @@ const Features = () => {
             desc: 'Empowers merchants with real-time consumer data analytics for personalized marketing. Its location-based services optimize targeted ads, improve customer engagement, and provide insights that boost conversions.'
         },
     ]
-  return (
-    <div className='flex flex-col gap-10 lg:gap-[1.4rem] lg:flex-row w-full justify-between items-center mt-11'>
-        {
-            data.map((item)=>(
-                <div key={item.id} className='flex-1 min-w-[384px]  p-8 w-full border-[1px] border-[#4AFF86AF] rounded-2xl'>
-                    <img src={featureIcon} alt=''/>
-                    <h5 className='text-left font-montserratBold font-[600] text-[22px] leading-[32px] text-[#FFFFFF] my-5'>{item.title}</h5>
-                    <p className='text-left font-inter font-[300] text-[16px] leading-[26px] text-[#FFFFFF] opacity-60 tracking-wider'>{item.desc}</p>
-                </div>
-            ))
-        }
-    </div>
-  )
+    return (
+        <div className='flex flex-col gap-10 lg:gap-[1.4rem] lg:flex-row w-full justify-between items-center mt-11'>
+            {
+                data.map((item) => (
+                    <div className='bg-gradient-to-r from-[#4AFF86AF] to-[#00CD44B2] rounded-2xl p-[1px]'>
+                        <div className='bg-black rounded-2xl'>
+                            <div key={item.id} className='bg-white bg-opacity-5 flex-1 min-w-[384px] p-8 w-full rounded-2xl'>
+                                <img src={featureIcon} alt='' />
+                                <h5 className='text-left font-montserratBold font-[600] text-[22px] leading-[32px] text-[#FFFFFF] my-5'>{item.title}</h5>
+                                <p className='text-left font-inter font-[300] text-[16px] leading-[26px] text-[#FFFFFF] opacity-60 tracking-wider'>{item.desc}</p>
+                            </div>
+                        </div>
+                    </div>
+                ))
+            }
+        </div>
+    )
 }
 
 export default Features
