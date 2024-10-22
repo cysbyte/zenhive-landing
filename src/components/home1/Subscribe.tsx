@@ -67,17 +67,17 @@ const Subscribe = () => {
                     <div className='flex flex-col md:flex-row items-start md:items-center gap-8'>
                         <div className=' flex gap-2 items-center'>
                             <img src={contact} alt='' />
-                            <p className='font-[400] text-base text-[#E6E6E6]'>hello@azenprotocol.io</p>
+                            <p className='font-[400] text-base text-[#E6E6E6] font-barlow'>hello@azenprotocol.io</p>
                         </div>
                         <div className=' flex gap-2 items-center'>
                             <img src={phone} alt='' />
-                            <p className='font-[400] text-base text-[#E6E6E6]'>+91 91813xx xxx</p>
+                            <p className='font-[400] text-base text-[#E6E6E6] font-barlow'>+91 91813xx xxx</p>
                         </div>
                     </div>
                 </div>
-                <div className='w-full px-24 flex flex-col md:flex-row justify-end items-center text-[#E6E6E6] font-montserrat text-[18px] leading-[27px] gap-8 underline mt-10 md:m-0'>
-                    <a href="">White Paper</a>
-                    <a href="">Privacy Policy</a>
+                <div className='w-full px-24 flex flex-col md:flex-row justify-end items-center text-[#E6E6E6] text-[18px] leading-[27px] gap-8 underline mt-10 md:m-0'>
+                    <a className='font-montserrat' href="">White Paper</a>
+                    <a className='font-montserrat' href="">Privacy Policy</a>
                 </div>
             </div>
         </Container>

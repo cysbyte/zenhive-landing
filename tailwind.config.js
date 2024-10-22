@@ -18,6 +18,7 @@ export default {
         cabinetGrotesk: ['CabinetGrotesk', 'sans-serif'],
         spaceGrotesk: ['SpaceGrotesk', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
+        barlow: ['Barlow', 'sans-serif'],
         
       },
     },
