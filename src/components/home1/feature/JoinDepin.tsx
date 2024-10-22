@@ -18,7 +18,7 @@ const JoinDepin = () => {
         <div className="w-full mt-7 md:mt-0 flex flex-col md:flex-row justify-start gap-7">
             {
                 data.map((item) => (
-                    <div className='mt-10 border-[1px] border-[#262626] px-12 rounded-[14px] text-start' key={item.id}>
+                    <div className='flex-1 mt-10 border-[1px] border-[#262626] px-12 rounded-[14px] text-start' key={item.id}>
                         <div className='flex w-full justify-between items-center border-[#262626] border-b py-4'>
                             <h3 className='font-montserrat font-[450] text-white text-[18px] md:text-[22px] leading-[32px] tracking-wider'>{item.title}</h3>
                             <img src={featureIcon} alt='' />
