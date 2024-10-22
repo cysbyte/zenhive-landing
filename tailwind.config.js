@@ -21,6 +21,9 @@ export default {
         barlow: ['Barlow', 'sans-serif'],
         
       },
+      screens: {
+        'ss': '450px',
+      },
     },
   },
   plugins: [

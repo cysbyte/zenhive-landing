@@ -8,7 +8,7 @@ const JoinList = () => {
       <img className='absolute left-96' src={stripe2} alt=''/>
       <div className="flex flex-col items-center gap-3 px-10 md:px-20 py-10 rounded-[0px] md:rounded-2xl bg-[#008A2E] backdrop-blur-xl">
         <h2 className="font-montserratBold text-[32px] mt-4 leading-[48px] text-white text-center">Join the Early Access List</h2>
-        <p className="font-montserrat text-[18px] font-[400] leading-[28px] text-white text-center">Sign up now for exclusive updates and be among the first to embark on<br /> this exciting journey with us!</p>
+        <p className="font-montserrat text-[18px] font-[400] leading-[28px] text-white text-center">Sign up now for exclusive updates and be among the first to embark on this exciting journey with us!</p>
 
         <div className='flex flex-col md:flex-row justify-between gap-5 md:gap-52 mt-0 w-full'>
           <input className='text-[20px] w-full border-white border-b border-opacity-70 font-montserrat bg-transparent py-[0.7rem] md:py-[0.9rem] placeholder:text-[18px] md:placeholder:text-[20px] placeholder:font-montserrat placeholder:text-[#FFFFFF] placeholder:opacity-70 placeholder:font-normal appearance-none focus:outline-none'
