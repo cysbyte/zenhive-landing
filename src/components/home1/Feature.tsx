@@ -1,7 +1,6 @@
 import Container from '../container/Container'
 import Features from './feature/Features'
 import JoinDepin from './feature/JoinDepin'
-import JoinList from './home/JoinList'
 import KeyFeatures from './feature/KeyFeatures'
 
 const Feature = () => {
