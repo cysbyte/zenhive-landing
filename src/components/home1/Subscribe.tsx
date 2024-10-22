@@ -77,7 +77,7 @@ const Subscribe = () => {
                 </div>
                 
             </div>
-            <div className='w-full px-24 py-3 flex flex-col md:flex-row justify-end items-center text-[#E6E6E6] text-[18px] leading-[27px] gap-8 underline mt-10 md:m-0'>
+            <div className='w-full px-24 py-3 flex flex-col md:flex-row justify-end items-center text-[#E6E6E6] text-[18px] leading-[27px] gap-8 underline my-10 md:m-0 '>
                     <a className='font-montserrat' href="">White Paper</a>
                     <a className='font-montserrat' href="">Privacy Policy</a>
                 </div>
