@@ -65,8 +65,8 @@ const ClientLogos = () => {
   ]
 
   return (
-    <div className={`mask-gradient p-2 whitespace-nowrap overflow-hidden w-full ${hasOverflow ? 'border-b border-t p-0 m-2 hide-scrollbar': ''}`}>
-        <div ref={containerRef} className={`mx-auto flex items-center justify-center border-t border-b w-[100%] md:w-[80%] py-10 gap-6 my-3 px-20 ${hasOverflow ? '   border-hidden' : ''} whitespace-normal`}
+    <div className={`mask-gradient whitespace-nowrap overflow-hidden w-full ${hasOverflow ? 'border-b border-t p-0 m-2 hide-scrollbar': ''}`}>
+        <div ref={containerRef} className={`mx-auto flex items-center justify-center border-t border-b border-gray-900 w-[100%] md:w-[80%] py-10 gap-6 my-3 px-20 ${hasOverflow ? '   border-hidden' : ''} whitespace-normal`}
         >
           {
             logos.map((item)=>(

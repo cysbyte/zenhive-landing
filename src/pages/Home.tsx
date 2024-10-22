@@ -9,8 +9,10 @@ import Subscribe from '../components/home/Subscribe'
 const Home = () => {
   return (
     <main className='overflow-x-hidden'>
+      <div className='bg-black'>
         <Header/>
         <Hero/>
+      </div>
         <ClientLogos/>
         <Feature/>
         <GetLatest/>

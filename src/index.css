@@ -1,4 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/chillax');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 
 @tailwind base;
 @tailwind components;
@@ -37,16 +39,35 @@
   font-style: normal;
 }
 
-.gradient-text {
-  background-image: linear-gradient(90deg, #FF3BFF, #ECBFBF, #5C24FF, #D94FD5);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.gradient-background {
-  background-image: linear-gradient(90deg, #FF3BFF, #ECBFBF, #5C24FF, #D94FD5);
+@font-face {
+  font-family: 'MontserratBold';
+  src: url('./assets/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: 'MontserratRegular';
+  src: url('./assets/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MontserratSemiBold';
+  src: url('./assets/fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 
 .logo-list {
   display: inline-flex;
@@ -71,46 +92,4 @@
     transform: translateX(-140%); 
   }
 }
-
-.shadow-animate-button {
-  position: relative;
-  cursor: pointer;
-  z-index: 1;
-}
-
-@property --angle {
-  syntax: "<angle>";
-  initial-value: 0deg;
-  inherits: false;
-}
-.shadow-animate-button::after, .shadow-animate-button::before {
-  --angle: 0deg;
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
-  z-index: -1;
-  padding: 2px;
-  border-radius: 40px;
-  background-image: conic-gradient(from var(--angle), #FF3BFF, #ECBFBF, #5C24FF, #D94FD5, #FF3BFF);
-  animation: 3s spin linear infinite;
-}
-
-.shadow-animate-button::before {
-  filter: blur(1.5rem);
-  opacity: 0.5;
-}
-
-@keyframes spin {
-  from {
-    --angle: 0deg;
-  }
-  to {
-    --angle: 360deg;
-  }
-}
-
 

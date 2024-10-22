@@ -1,5 +1,4 @@
 import Container from '../container/Container'
-import './Hero.css'
 
 const Hero = () => {
   return (

@@ -1,0 +1,51 @@
+.gradient-text {
+    background-image: linear-gradient(90deg, #FF3BFF, #ECBFBF, #5C24FF, #D94FD5);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .gradient-background {
+    background-image: linear-gradient(90deg, #FF3BFF, #ECBFBF, #5C24FF, #D94FD5);
+  }
+
+  .shadow-animate-button {
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  @property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+  .shadow-animate-button::after, .shadow-animate-button::before {
+    --angle: 0deg;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 2px;
+    border-radius: 40px;
+    background-image: conic-gradient(from var(--angle), #FF3BFF, #ECBFBF, #5C24FF, #D94FD5, #FF3BFF);
+    animation: 3s spin linear infinite;
+  }
+  
+  .shadow-animate-button::before {
+    filter: blur(1.5rem);
+    opacity: 0.5;
+  }
+  
+  @keyframes spin {
+    from {
+      --angle: 0deg;
+    }
+    to {
+      --angle: 360deg;
+    }
+  }

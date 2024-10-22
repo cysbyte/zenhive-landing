@@ -31,7 +31,9 @@ const Subscribe = () => {
             <div className='px-16 py-[1.4rem] mt-4 flex flex-col md:flex-row bg-black w-full justify-between gap-10 md:gap-1 items-center md:items-end'>
                 <div className='mt-5 w-full'>
                     <h6 className='text-white text-[0.7rem] uppercase font-dmsans font-thin'>SUBSCRIBE FOR UPDATES</h6>
-                    <div className='input-animate-button flex flex-col md:flex-row items-center justify-between w-full md:w-[36rem] gap-5 md:gap-2 border-[1px] border-gray-800 rounded-2xl py-1 px-3 mt-2 backdrop-blur-sm shadow-xl'>
+                    <div className=' inline-block mt-2'>
+
+                    <div className=' bg-black flex flex-col md:flex-row items-center justify-between w-full md:w-[36rem] gap-5 md:gap-2 border-[1px] border-gray-800 rounded-2xl py-1 px-3 '>
                         <input className='bg-black text-white text-[16px] font-dmsans rounded-full px-3 py-[0.5rem] placeholder:text-[16px] placeholder:font-dmsans placeholder:text-white placeholder:tracking-wider placeholder:font-thin appearance-none focus:outline-none ' 
                         type="text" 
                         id='email'
@@ -39,7 +41,7 @@ const Subscribe = () => {
                         />
                         <button className='text-slate-500 uppercase font-bold'>Subscribe</button>
                     </div>
-
+                    </div>
                 </div>
                 
                 <div>
