@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Home1 from './pages/Home1';
 import Signin from './pages/Signin';
 import { GoogleOAuthProvider } from '@react-oauth/google';
+import PageNotFound from './pages/PageNotFound';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home1 />} />
         <Route path="/home1" element={<Home />} />
         <Route path='/signin' element={<Signin/>}/>
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </Router>
     </GoogleOAuthProvider>
