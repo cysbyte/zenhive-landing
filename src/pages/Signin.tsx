@@ -11,9 +11,10 @@ const Signin = () => {
 
     const handleSuccess = (response: any) => {
         const token = response.credential;
-        const decodedToken = jwtDecode(token); 
+        const decodedToken: any = jwtDecode(token); 
         console.log('Decoded Token:', decodedToken);
         setIsLoggedIn(true)
+        alert(`Welcome ${decodedToken.name}, Your email is ${decodedToken.email}`)
     };
 
     const handleError = () => {
