@@ -35,11 +35,11 @@ const KeyFeatures = () => {
         },
     ]
     return (
-        <div className='flex flex-col gap-10 mt-16 lg:gap-0 lg:flex-row justify-between items-center'>
-            <div className="bg-[url('assets/home1/key-features/whatsapp2.svg')] bg-center w-[43rem] ml-60 lg:ml-0 h-auto">
-                <img className='w-[43rem] -ml-[3rem] md:-ml-[5.5rem] mt-16' src={whatsapp1} alt='' />
+        <div className='flex flex-col gap-10 mt-0 lg:gap-0 lg:flex-row justify-between items-center'>
+            <div className="bg-[url('assets/home1/key-features/whatsapp2.svg')] bg-center w-[43rem] ml-60 lg:ml-0 h-auto mt-28">
+                <img className='w-[43rem] -ml-[3rem] md:-ml-[8rem] mt-10' src={whatsapp1} alt='' />
             </div>
-            <div className='flex-1 ml-0 lg:-ml-[12rem] w-full grid grid-cols-1 md:grid-cols-2 grid-rows-3 gap-x-20 gap-y-9 mt-7 text-left font-dmsans tracking-wide'>
+            <div className='flex-1 ml-0 lg:-ml-[15rem] w-full grid grid-cols-1 md:grid-cols-2 grid-rows-3 gap-x-16 gap-y-9 mt-7 text-left font-dmsans tracking-wide'>
                 {
                     data.map((item) => (
                         <div key={item.id}>
