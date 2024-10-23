@@ -5,7 +5,6 @@ import logo3 from '../../assets/client-logos/logo3.svg';
 import logo4 from '../../assets/client-logos/logo4.svg';
 import logo5 from '../../assets/client-logos/logo5.svg';
 import logo6 from '../../assets/client-logos/logo6.svg';
-import './ClientLogos.css'
 
 const ClientLogos = () => {
 

@@ -24,6 +24,15 @@ export default {
       screens: {
         'ss': '450px',
       },
+      keyframes: {
+        moveLeft: {
+          '0%': { left: '100%' }, 
+          '100%': { left: '-112px' }, 
+        },
+      },
+      animation: {
+        moveLeft: 'moveLeft 5s linear infinite', 
+      },
     },
   },
   plugins: [
