@@ -72,11 +72,6 @@
   animation: scrollLeft 20s linear infinite;
 }
 
-.logo-animation-md {
-  display: inline-flex;
-  animation: scrollLeftMD 20s linear infinite;
-}
-
 .delay1 {
   animation-delay: calc(20s / 6 * (6 - 1) * -1);
 }
@@ -95,6 +90,9 @@
 .delay6 {
   animation-delay: calc(20s / 6 * (6 - 6) * -1);
 }
+.delay6 {
+  animation-delay: calc(20s / 6 * (6 - 6) * -1);
+}
 
 /* .mask-image-div {
   mask-image: linear-gradient(
@@ -106,21 +104,14 @@
   )
 } */
 
-@keyframes scrollLeftMD {
-  0% {
-    left: 105%; 
-  }
-  100% {
-    left: -120px
-  }
-}
+
 
 @keyframes scrollLeft {
   0% {
-    left: 180%; 
+    left: 110%; 
   }
   100% {
-    left: -130px
+    left: -320px
   }
 }
 
