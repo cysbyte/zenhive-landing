@@ -1,19 +1,25 @@
-import Container from '../container/Container'
+import AnimationTexts from './AnimationTexts'
 import './Hero.css'
 
 const Hero = () => {
   return (
-    <Container>
-      <div className='bg-black flex flex-col items-center justify-center gap-8 py-[120px] lg:py-[200px] text-center'>
-        <h1 className='hidden md:block break-words w-auto text-white font-clashGrotesk font-[600] text-[36px] md:text-[44px] leading-[45px] md:leading-[54px] tracking-[2px] gradient-text'>The Future of Decentralized Infrastructure</h1>
-        <h1 className='block md:hidden text-nowrap break-words w-auto text-white font-clashGrotesk font-[600] text-[40px] md:text-[44px] leading-[45px] md:leading-[54px] tracking-[2px] gradient-text'>The Future of <br/>Decentralized <br/>Infrastructure</h1>
-        <p className='hidden md:block text-white font-cabinetGrotesk w-auto font-[400] text-[20px] leading-[33px] tracking-[1px]'>A Device built on aZen Protocol for Universal Computing Enabling <br/>[Decentralized Storage, AI Inferencing, Edge Computing, Content Delivery, <br/>Real-Time Analytics, IoT Solutions, Smart Contract, Decentralized Identity]</p>
-        <p className='block md:hidden text-white font-cabinetGrotesk w-[90%] font-[400] text-[18px] leading-[30px] tracking-[1px]'>A Device built on aZen Protocol for Universal Computing Enabling <br/>[Decentralized Storage, AI Inferencing, Edge Computing, Content Delivery, <br/>Real-Time Analytics, IoT Solutions, Smart Contract, Decentralized Identity]</p>
-        <button className='shadow-animate-button text-white  rounded-full p-[2px] mt-12'>
-          <p className='font-spaceGrotesk bg-black text-[20px] leading-[26px] font-normal text-white rounded-full py-4 px-8'>Get Early access</p>
-        </button>
+    <div className='z-10 bg-transparent flex flex-col items-center justify-center gap-4 md:gap-7 py-[200px] lg:py-[200px] text-center'>
+      <h1 className='hidden md:block z-10 break-words mt-4 w-auto text-white font-montserrat font-[600] text-[36px] leading-[45px] tracking-[2px]'>The Future of <span className='font-montserratBold font-[800] text-[#4AFF86] tracking-[1px]'>Decentralized Infrastructure</span></h1>
+      <h1 className='block md:hidden z-10 break-words mt-4 w-auto text-white font-montserrat font-[500]  text-[22px] leading-[27px] tracking-[2px]'>The Future of <br/><span className='font-montserratBold font-[800] text-[#4AFF86] tracking-[1px] leading-[25px]'>Decentralized Infrastructure</span></h1>
+ 
+      <p className='z-10 hidden md:flex gap-2 text-white font-inter w-auto font-[300] text-[20px] leading-[33px] tracking-tight items-center'>A Device built on aZen Protocol for Universal Computing Enabling <AnimationTexts/></p>
+      
+      <p className='z-10 block md:hidden text-white font-inter w-[90%] font-[400] text-[14px] leading-[20px] tracking-[1px]'><p>A Device built on aZen Protocol for Universal</p> 
+      <div className='flex justify-center items-center gap-1 mx-auto'>
+        <p>Computing Enabling</p> 
+        <AnimationTexts/>
       </div>
-    </Container>
+      </p>
+      <button className='z-10 hidden md:block shadow-animate-button1 text-white rounded-full p-[2px] -mt-0 mb-64'>
+        <p className='font-montserrat bg-black text-[20px] leading-[26px] font-normal text-white rounded-full py-5 px-8'>Get Early access</p>
+      </button>
+    </div>
+
   )
 }
 

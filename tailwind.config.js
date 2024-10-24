@@ -41,6 +41,9 @@ export default {
         '.mask-gradient': {
           'mask-image': 'linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, rgba(0,0,0,0))',
         },
+        '.hero-mask-gradient': {
+          'mask-image': 'linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0) 100% )',
+        },
         '.hide-scrollbar': {
           /* For most modern browsers */
           'scrollbar-width': 'none', /* Firefox */

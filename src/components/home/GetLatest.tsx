@@ -2,58 +2,60 @@ import Container from '../container/Container'
 import Din from './latest/Din'
 import Infura from './latest/Infura'
 import Recap from './latest/Recap'
-import recap from '../../assets/latest/recap.png'
-import bestPractises from '../../assets/latest/best-practises.png'
-import summer from '../../assets/latest/summer.png'
+import latest1 from '../../assets/home/latest/latest1.png'
+import latest2 from '../../assets/home/latest/latest2.png'
+import latest3 from '../../assets/home/latest/latest3.png'
+import arrow from '../../assets/home/latest/arrow.svg'
 
 const GetLatest = () => {
   const data = [
     {
       id: 1,
-      category: 'DIN',
-      title: 'Celebrating Q3 2024 Milestones for DIN',
-      desc: 'Celebrating Q3 2024 Milestones for DIN',
-      component: <Recap/>,
-      image: recap
+      title: 'Open Telemetry Is Shaping The Future of API Monitoring',
+      desc: 'Lorem Ipsum is simply dummy text of the printing and typesettinger',
+      component: <Recap />,
+      image: latest1
     },
     {
       id: 2,
-      category: 'INFURA',
-      title: 'Best Practices for Infura API Key Management',
-      desc: 'Best Practises for Infura API Key Management',
-      component: <Infura/>,
-      image: bestPractises
+      title: 'Open Telemetry Is Shaping TheFuture of API Monitoring',
+      desc: 'Lorem Ipsum is simply dummy text of the printing and typesettinger',
+      component: <Infura />,
+      image: latest2
     },
     {
       id: 3,
-      category: 'INFURA',
-      title: 'DIN Summer Network Launches',
-      desc: 'DIN Summer Network Launches',
-      component: <Din/>,
-      image: summer,
+      title: 'Open Telemetry Is Shaping The Future of API Monitoring',
+      desc: 'Lorem Ipsum is simply dummy text of the printing and typesettinger',
+      component: <Din />,
+      image: latest3,
     },
 
   ]
   return (
     <Container>
-      <div className='px-5 md:px-20 py-10 md:py-20 mx-auto'>
-        <h2 className='font-[600] text-[30px] lg:text-[40px] leading-[32px] text-center tracking-wider'>Get the latest</h2>
-        <div className="flex flex-col md:flex-row gap-10 md:gap-6 items-center md:items-start justify-between mt-14 ">
+      <div className='mt-4 px-2 md:px-20 py-10 md:py-20 mx-auto'>
+        <h2 className='font-montserratBold font-[600] text-[#4AFF86] text-[30px] lg:text-[48px] leading-[58px] text-center tracking-wider'>Get the latest</h2>
+        <div className="flex flex-col  md:flex-row gap-10 md:gap-6 items-center md:items-start justify-between mt-14 ">
           {
             data.map((item) => (
-              <div key={item.id} className="flex-1 flex-col items-center justify-center">
+              <div key={item.id} className="flex-1 flex-col p-5 bg-[#0D0D0D] rounded-2xl items-center justify-center">
                 {/* {item.component} */}
-                <img className='rounded-[1px] w-full md:max-w-[23rem]' src={item.image} alt=''/>
-                <h3 className="bg-[#e26442] inline-block uppercase px-3 py-[0.1rem] w-auto text-center text-[0.78rem] mt-4">{item.category}</h3>
-                <h2 className='text-xl text-[#3c3832] font-semibold mt-2 tracking-wider'>{item.title}</h2>
-                <p className='text-lg text-[#38322b] font-normal mt-2'>{item.desc}</p>
-                <div className='mt-3'>
-                <a className=" uppercase no-underline text-[#9aa7b3] text-sm" href="">Read more  {' >'}</a>
-
+                <img className='rounded-[1px] w-full md:max-w-[22rem]' src={item.image} alt='' />
+                <h2 className='font-montserrat text-xl text-[#FFFFFF] font-semibold mt-2 tracking-wider'>{item.title}</h2>
+                <p className='font-montserrat text-[14px] leading-[20px] text-[#B3B3B3] font-normal mt-2'>{item.desc}</p>
+                <div className='mt-4 flex items-center justify-end gap-2'>
+                  <a className=" uppercase no-underline text-white text-sm" href="">Read more</a>
+                  <img src={arrow} alt='' />
                 </div>
               </div>
             ))
           }
+        </div>
+        <div className='w-full flex items-center justify-center mt-7'>
+          <div className='mx-auto rounded-full p-[2px] bg-gradient-to-r from-[#4AFF86] to-[#006F25] inline-block'>
+            <button className='font-montserrat text-[20px] leading-[24px] rounded-full px-7 py-5 bg-black text-white'>More Articles</button>
+          </div>
         </div>
       </div>
     </Container>

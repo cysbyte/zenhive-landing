@@ -1,7 +1,6 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home'
-import Home1 from './pages/Home1';
+import Home1 from './pages/Home';
 import Signin from './pages/Signin';
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import PageNotFound from './pages/PageNotFound';
@@ -14,7 +13,6 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home1 />} />
-        <Route path="/home1" element={<Home />} />
         <Route path='/signin' element={<Signin/>}/>
         <Route path='/signup' element={<Signup/>}/>
         <Route path="*" element={<PageNotFound />} />
